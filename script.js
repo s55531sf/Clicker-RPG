@@ -64,8 +64,7 @@ enesrcB=[enemyB0,enemyB1,enemyB2,enemyB3,enemyB4,enemyB5,enemyB6,enemyB7,enemyB8
 
 //せつめい
 let setu=document.getElementById("setu");
-setu.textContent="てすと";
-setu.addEventListener=("click",()=>{
+setu.addEventListener("click",()=>{
  console.log("せつめい");
  if(flag){
 alert("このゲームはクリックRPGです。");
