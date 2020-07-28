@@ -189,13 +189,13 @@ if(eneKill[9]==1){
 flag=false;
 eneCnt=-10;
 stop=0;
-plyImg.src="img/20200727212245.png"
-playerB="img/20200727212245.png";
+plyImg.src="20200727212245.png"
+playerB="20200727212245.png";
 right.textContent="続ける"
 right.addEventListener("click",()=>{
  flag=true;
 stop=1;
-playerB="img/20200725173235.png";
+playerB="20200725173235.png";
  right.textContent="次のモンスター"
 });
 
